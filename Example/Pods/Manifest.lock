@@ -1,0 +1,20 @@
+PODS:
+  - SGCore (1.0.0):
+    - SGCore/SGFunction (= 1.0.0)
+    - SGCore/SGMacros (= 1.0.0)
+  - SGCore/SGFunction (1.0.0)
+  - SGCore/SGMacros (1.0.0)
+
+DEPENDENCIES:
+  - SGCore (from `../`)
+
+EXTERNAL SOURCES:
+  SGCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGCore: 1d1df0fcab97737e9e9ab46be9bc7081ba631282
+
+PODFILE CHECKSUM: 091eb64b8c647203a8e88f2d18ac181722802ed3
+
+COCOAPODS: 1.7.5

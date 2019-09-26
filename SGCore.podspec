@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SGCore'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SGCore.'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,20 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/gui950823@126.com/SGCore'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gui950823@126.com' => 'gui950823@126.com' }
-  s.source           = { :git => 'https://github.com/gui950823@126.com/SGCore.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'GuiLQing' => 'gui950823@126.com' }
+  s.source           = { :git => 'https://github.com/GuiLQing/SGCore.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SGCore/Classes/**/*'
+  s.source_files = 'SGCore/Classes/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'SGCore' => ['SGCore/Assets/*.png']
-  # }
+  s.subspec 'SGMacros' do |macors|
+      macors.source_files = 'SGCore/Classes/SGMacros/**/*.{h,m}'
+  end
+  
+  s.subspec 'SGFunction' do |function|
+      function.source_files = 'SGCore/Classes/SGFunction/**/*.{h,m}'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

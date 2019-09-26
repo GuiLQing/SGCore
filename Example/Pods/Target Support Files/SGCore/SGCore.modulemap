@@ -1,0 +1,6 @@
+framework module SGCore {
+  umbrella header "SGCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
