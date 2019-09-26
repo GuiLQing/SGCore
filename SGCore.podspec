@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'SGFunction' do |function|
       function.source_files = 'SGCore/Classes/SGFunction/**/*.{h,m}'
+      function.dependency 'SGCore/SGMacros'
   end
 
 end

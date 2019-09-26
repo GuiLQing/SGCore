@@ -26,7 +26,12 @@
     },
     {
       "name": "SGFunction",
-      "source_files": "SGCore/Classes/SGFunction/**/*.{h,m}"
+      "source_files": "SGCore/Classes/SGFunction/**/*.{h,m}",
+      "dependencies": {
+        "SGCore/SGMacros": [
+
+        ]
+      }
     }
   ]
 }

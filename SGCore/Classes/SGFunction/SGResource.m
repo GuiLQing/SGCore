@@ -6,8 +6,7 @@
 //
 
 #import "SGResource.h"
-#import "SGUtilsMacros.h"
-#import "SGPathMacros.h"
+#import "SGMacros.h"
 
 @interface SGBundleResource : NSObject
 

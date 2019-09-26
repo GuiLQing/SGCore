@@ -6,7 +6,7 @@
 //
 
 #import "SGUtils.h"
-#import "SGUtilsMacros.h"
+#import "SGMacros.h"
 
 NSString * _Nonnull SG_HandleImageUrl(NSString * _Nonnull urlString) {
     NSError *error = nil;

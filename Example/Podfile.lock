@@ -2,7 +2,8 @@ PODS:
   - SGCore (1.0.0):
     - SGCore/SGFunction (= 1.0.0)
     - SGCore/SGMacros (= 1.0.0)
-  - SGCore/SGFunction (1.0.0)
+  - SGCore/SGFunction (1.0.0):
+    - SGCore/SGMacros
   - SGCore/SGMacros (1.0.0)
 
 DEPENDENCIES:
@@ -13,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SGCore: 1d1df0fcab97737e9e9ab46be9bc7081ba631282
+  SGCore: 612efbe8b244dfd47f90c737e34833aacfa7ca8e
 
 PODFILE CHECKSUM: 091eb64b8c647203a8e88f2d18ac181722802ed3
 

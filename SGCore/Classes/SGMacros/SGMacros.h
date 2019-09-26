@@ -17,5 +17,6 @@
 #import "SGFontMacros.h"
 #import "SGPathMacros.h"
 #import "SGBlockMacros.h"
+#import "SGUtilsMacros.h"
 
 #endif /* SGMacros_h */
