@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07CB9FD8B25F7B30D3FB7A2E81F7D35B /* SGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 323F4B1FF1F7B4BCFD0EEA121BFD1AA2 /* SGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1709E4DE81F33809F56B815CB348A47B /* SGDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 64804B1503AB67E77630B9F43946778A /* SGDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039F7D4E7C33C116DE402F6A5973B69E /* NSArray+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DC07135B8A3238C5719FF98EA5B315C0 /* NSArray+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09886B40B60A3EED1548BEE0CF7EA675 /* UIColor+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FACD689F455C9753CB0737C43A81198 /* UIColor+SGCore.m */; };
+		116D690D5A311C7E59B5B41FBE12C3A9 /* NSDictionary+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 786119353095E586C4EFE7A11B23913A /* NSDictionary+SGCore.m */; };
+		1EF75D864DE7072EB69CF5688DE91A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2B14709B298683440FCC0E89B96F8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3690AE03B1C3E35CB3C99B988FB81824 /* SGResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2547EF280BA7FD9F374143FBBA3878 /* SGResource.m */; };
-		3F18A9EC6637BCDE3B7D333C925959EB /* SGResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A370E104166C236FE5FBA4C306F4E7F /* SGResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47D638D135DE5AD69CC585FC962D17AB /* SGEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DBE506DBA51D6CC19436C484656FAD /* SGEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBD8F0064BE1FE6763E7B88B1DF1229 /* NSString+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7722D926D51F295BE8BAA468AEDA83F2 /* NSString+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4362315B588EFAD47BFF5A94DFCFED10 /* SGCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261A09841B54C7E95CCBF25E2B0091C /* SGCore-dummy.m */; };
+		462349174063AD22375BC6435EF64BF5 /* SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 71221FC9C830DD96475935904CA93AC6 /* SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55006ED93A469896B2E86E004C08D6BC /* Pods-SGCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3DE13D27070136752F2C37F7FCBA85 /* Pods-SGCore_Example-dummy.m */; };
 		55C34465AE622DA83436C56F38CADDAA /* Pods-SGCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E34B5FF79D17B85962002DD1D3ECF7 /* Pods-SGCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56392818790BB0DE6422F12968C11129 /* SGEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33E40007D208C98AB2FC5D1D6DCBCB /* SGEncrypt.m */; };
-		5674529B7CD09FAC6B15A818C487CCEE /* SGFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = C1786DEC0B36AB34784DB56CB866E775 /* SGFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AC426BF6CCAC990EDDDA890389D81A9 /* SGPathMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BCECA0AF10BCC2F62EB1159F0006362A /* SGPathMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80E172838F0AEFB7335A0D3146B6AED4 /* SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C4845B76B419E01051FC27B214FD166B /* SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87AC58E6E6994801C054AE375A94EA72 /* SGSizeMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8CB7B2E2736A91A8194E4420F6E493 /* SGSizeMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A3B79D30250B6F43DE58B0AC98D8348 /* SGFontMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BC3624618F10F8F4D22B91112FFBEC /* SGFontMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91176D62A872E3B9169A8E17AB5B3A45 /* SGDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD94FBD4DC12CF7D1293831140B77C /* SGDispatch.m */; };
-		98113F969A5EB02BA066C49F0D8B9090 /* SGCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386F493E4CA048CFFD4ADB8AC5189183 /* SGCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A67C633143FBCDBF5C9C6A9BA4E2ABD5 /* SGCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703C10745528546A4CD2F1F884BC112F /* SGCore-dummy.m */; };
-		B544087D6B5F67A4DDB03ACFEA47E366 /* SGUtilsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7D3BB9227B0E85828BE352C7B491A2 /* SGUtilsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB4686F323C8529202C8A411DEBCB018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E06558D26BBAEBEA9363A662C329DD28 /* SGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B6722AFB0F7D82EBAB4814EAACD457 /* SGUtils.m */; };
-		E0C26173970919CBD35222DB5082AADC /* SGColorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 054BCD97AABB8AC217744723AA25E001 /* SGColorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3D90D7AC2ED39AB38AE8A2098D41705 /* SGBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AD77436FD01F032692B8AABBE43450CC /* SGBlockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1FC0215F536B05E79F3F53A85B8EDB8 /* SGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 627B5BC8FC30C8BA71B6046D4E60962B /* SGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F54F83D0FA53E7BAEA539286E28AE268 /* SGSystemMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1A4D00375BA899494E5C698FD8940A /* SGSystemMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7510CA5BCD737911C6141508ED44F534 /* NSObject+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2CC2EE241D2170C09F988B0D9623B3 /* NSObject+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789647984C43A363991C7B0BC7BE805E /* UIView+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E25521725EA337081E9386D54202F3D0 /* UIView+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8440AB762BBB8D580B1896CDC80C1035 /* NSObject+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B89F48B638155A43E207D19ADA9FFD7 /* NSObject+SGCore.m */; };
+		92EEF6310CA6368D82F9471A98DD8B70 /* UIImage+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5855FCFF408428F410891F2B1B7C6 /* UIImage+SGCore.m */; };
+		B3D6E8C6622D0BBCB020C5B916EAD387 /* NSString+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 49307F5E08914AA20F4DC303C321EAD9 /* NSString+SGCore.m */; };
+		C27D0C79E6E13D4B865109077DE1A52D /* NSDate+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B217D09B9F40CA00272609E911209F7F /* NSDate+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C606F4409F63947A52359F6198A8AE5D /* UIImage+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 052ABFC212EA470C855627BC028EE755 /* UIImage+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C946BCF57B2F69A9FD6532EF8A6296E5 /* NSDate+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFA1152ADDF50CE41206F1C880774EA /* NSDate+SGCore.m */; };
+		CB2753F00AD32DD7BBFE84CC97258727 /* UIView+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = BE687D0ED717D517584D21EF444864D5 /* UIView+SGCore.m */; };
+		CC332C3592D08012F28161A206301787 /* NSDictionary+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8219832DE525AE383C08DB4357E1D2E8 /* NSDictionary+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41D53FB64082C88913F6C62A4E7F134 /* NSArray+SGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851E9EDB07F70FBBA08A17FA956981 /* NSArray+SGCore.m */; };
+		E0375910101FE593378B68A9E849FE54 /* SGCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9FB2A15BC2FF16B82C1C6B984409BF /* SGCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55751ADFD517206A77AD24EA63C01FD /* UIColor+SGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 47153BCE7FDA3CF49DB1C6C16F56ADDD /* UIColor+SGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,54 +43,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054BCD97AABB8AC217744723AA25E001 /* SGColorMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGColorMacros.h; path = SGCore/Classes/SGMacros/SGColorMacros.h; sourceTree = "<group>"; };
-		095E1C10EE70149E7BE0CD17F2137121 /* SGCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGCore.modulemap; sourceTree = "<group>"; };
-		0F29A997AB517A989E6E8F3C6C4CD797 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0F97EEDCE247B9CE83030B8AD0E311D6 /* SGCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGCore-Info.plist"; sourceTree = "<group>"; };
+		052ABFC212EA470C855627BC028EE755 /* UIImage+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SGCore.h"; path = "SGCore/Classes/SGUIKit/UIImage+SGCore.h"; sourceTree = "<group>"; };
+		09851E9EDB07F70FBBA08A17FA956981 /* NSArray+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SGCore.m"; path = "SGCore/Classes/SGFoundation/NSArray+SGCore.m"; sourceTree = "<group>"; };
+		09F952B7E1FDCB5377605AC6A636D2D8 /* SGCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGCore.xcconfig; sourceTree = "<group>"; };
 		192588E1069018D8CF73268A23A26243 /* Pods-SGCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23E34B5FF79D17B85962002DD1D3ECF7 /* Pods-SGCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGCore_Example-umbrella.h"; sourceTree = "<group>"; };
 		26A871A0FDD51F803CC91CF67E9B1ECB /* Pods-SGCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A9FB2A15BC2FF16B82C1C6B984409BF /* SGCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGCore-umbrella.h"; sourceTree = "<group>"; };
+		2D2CC2EE241D2170C09F988B0D9623B3 /* NSObject+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGCore.h"; path = "SGCore/Classes/SGFoundation/NSObject+SGCore.h"; sourceTree = "<group>"; };
 		2D54A206FED5C794C22C59313C1625C9 /* Pods-SGCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2FACD689F455C9753CB0737C43A81198 /* UIColor+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SGCore.m"; path = "SGCore/Classes/SGUIKit/UIColor+SGCore.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		323F4B1FF1F7B4BCFD0EEA121BFD1AA2 /* SGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGMacros.h; path = SGCore/Classes/SGMacros/SGMacros.h; sourceTree = "<group>"; };
-		386F493E4CA048CFFD4ADB8AC5189183 /* SGCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGCore-umbrella.h"; sourceTree = "<group>"; };
+		47153BCE7FDA3CF49DB1C6C16F56ADDD /* UIColor+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SGCore.h"; path = "SGCore/Classes/SGUIKit/UIColor+SGCore.h"; sourceTree = "<group>"; };
+		49307F5E08914AA20F4DC303C321EAD9 /* NSString+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SGCore.m"; path = "SGCore/Classes/SGFoundation/NSString+SGCore.m"; sourceTree = "<group>"; };
+		5261A09841B54C7E95CCBF25E2B0091C /* SGCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGCore-dummy.m"; sourceTree = "<group>"; };
 		55E0D4D40530BB8313076A587A08B941 /* Pods-SGCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		58DBE506DBA51D6CC19436C484656FAD /* SGEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGEncrypt.h; path = SGCore/Classes/SGFunction/SGEncrypt.h; sourceTree = "<group>"; };
-		627B5BC8FC30C8BA71B6046D4E60962B /* SGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGUtils.h; path = SGCore/Classes/SGFunction/SGUtils.h; sourceTree = "<group>"; };
-		64804B1503AB67E77630B9F43946778A /* SGDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGDispatch.h; path = SGCore/Classes/SGFunction/SGDispatch.h; sourceTree = "<group>"; };
-		64BA22CB24011E8CF7190769D3B669C4 /* SGCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGCore.xcconfig; sourceTree = "<group>"; };
+		6679820B02ED779E5F8825C9E46ED736 /* SGCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGCore-Info.plist"; sourceTree = "<group>"; };
 		6C9049A4109E1069F02803278AEC1CD1 /* Pods-SGCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGCore_Example-Info.plist"; sourceTree = "<group>"; };
-		703C10745528546A4CD2F1F884BC112F /* SGCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGCore-dummy.m"; sourceTree = "<group>"; };
-		7A2547EF280BA7FD9F374143FBBA3878 /* SGResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGResource.m; path = SGCore/Classes/SGFunction/SGResource.m; sourceTree = "<group>"; };
-		8A370E104166C236FE5FBA4C306F4E7F /* SGResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGResource.h; path = SGCore/Classes/SGFunction/SGResource.h; sourceTree = "<group>"; };
+		71221FC9C830DD96475935904CA93AC6 /* SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGCore.h; path = SGCore/Classes/SGCore.h; sourceTree = "<group>"; };
+		7722D926D51F295BE8BAA468AEDA83F2 /* NSString+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SGCore.h"; path = "SGCore/Classes/SGFoundation/NSString+SGCore.h"; sourceTree = "<group>"; };
+		786119353095E586C4EFE7A11B23913A /* NSDictionary+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SGCore.m"; path = "SGCore/Classes/SGFoundation/NSDictionary+SGCore.m"; sourceTree = "<group>"; };
+		7B89F48B638155A43E207D19ADA9FFD7 /* NSObject+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SGCore.m"; path = "SGCore/Classes/SGFoundation/NSObject+SGCore.m"; sourceTree = "<group>"; };
+		8219832DE525AE383C08DB4357E1D2E8 /* NSDictionary+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SGCore.h"; path = "SGCore/Classes/SGFoundation/NSDictionary+SGCore.h"; sourceTree = "<group>"; };
 		8D139290990556486451675CA6F11152 /* Pods_SGCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGCore_Example.framework; path = "Pods-SGCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B5855FCFF408428F410891F2B1B7C6 /* UIImage+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SGCore.m"; path = "SGCore/Classes/SGUIKit/UIImage+SGCore.m"; sourceTree = "<group>"; };
 		93DF1BFD7285ED3CC371A025E51DE359 /* Pods-SGCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9C8CB7B2E2736A91A8194E4420F6E493 /* SGSizeMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSizeMacros.h; path = SGCore/Classes/SGMacros/SGSizeMacros.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2502A82D99ECD128834650A893E98C /* SGCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGCore-prefix.pch"; sourceTree = "<group>"; };
-		A2D2404BD454E0C39A03B7C2094BA49D /* SGCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A44E226388452D2439C03F5B4F412A75 /* Pods-SGCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGCore_Example.modulemap"; sourceTree = "<group>"; };
-		AD77436FD01F032692B8AABBE43450CC /* SGBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGBlockMacros.h; path = SGCore/Classes/SGMacros/SGBlockMacros.h; sourceTree = "<group>"; };
+		AD87F0755B994DBDE6BB7E48D2212F95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AE3DE13D27070136752F2C37F7FCBA85 /* Pods-SGCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGCore_Example-dummy.m"; sourceTree = "<group>"; };
-		AF7D3BB9227B0E85828BE352C7B491A2 /* SGUtilsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGUtilsMacros.h; path = SGCore/Classes/SGMacros/SGUtilsMacros.h; sourceTree = "<group>"; };
-		BCECA0AF10BCC2F62EB1159F0006362A /* SGPathMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGPathMacros.h; path = SGCore/Classes/SGMacros/SGPathMacros.h; sourceTree = "<group>"; };
-		C1786DEC0B36AB34784DB56CB866E775 /* SGFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGFunction.h; path = SGCore/Classes/SGFunction/SGFunction.h; sourceTree = "<group>"; };
-		C4845B76B419E01051FC27B214FD166B /* SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGCore.h; path = SGCore/Classes/SGCore.h; sourceTree = "<group>"; };
-		C6BC3624618F10F8F4D22B91112FFBEC /* SGFontMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGFontMacros.h; path = SGCore/Classes/SGMacros/SGFontMacros.h; sourceTree = "<group>"; };
-		D1B6722AFB0F7D82EBAB4814EAACD457 /* SGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGUtils.m; path = SGCore/Classes/SGFunction/SGUtils.m; sourceTree = "<group>"; };
-		D4FD94FBD4DC12CF7D1293831140B77C /* SGDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGDispatch.m; path = SGCore/Classes/SGFunction/SGDispatch.m; sourceTree = "<group>"; };
-		D9F9159C879C904D7AA7A9CD1999EBDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B217D09B9F40CA00272609E911209F7F /* NSDate+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SGCore.h"; path = "SGCore/Classes/SGFoundation/NSDate+SGCore.h"; sourceTree = "<group>"; };
+		BE687D0ED717D517584D21EF444864D5 /* UIView+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SGCore.m"; path = "SGCore/Classes/SGUIKit/UIView+SGCore.m"; sourceTree = "<group>"; };
+		BEFA1152ADDF50CE41206F1C880774EA /* NSDate+SGCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SGCore.m"; path = "SGCore/Classes/SGFoundation/NSDate+SGCore.m"; sourceTree = "<group>"; };
+		BF278375B5A1C025E538B45C63170E68 /* SGCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGCore-prefix.pch"; sourceTree = "<group>"; };
+		C71DA740A62611696BCAD614EB7C891B /* SGCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGCore.modulemap; sourceTree = "<group>"; };
+		D41DFEBAC5C57E4399A3129CFD0F57D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DC07135B8A3238C5719FF98EA5B315C0 /* NSArray+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SGCore.h"; path = "SGCore/Classes/SGFoundation/NSArray+SGCore.h"; sourceTree = "<group>"; };
+		E25521725EA337081E9386D54202F3D0 /* UIView+SGCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SGCore.h"; path = "SGCore/Classes/SGUIKit/UIView+SGCore.h"; sourceTree = "<group>"; };
+		E4055225C754B8D9E965B02726ED167C /* SGCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF4CCECC3FF7CEF98373D61B5F2C07EC /* SGCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGCore.framework; path = SGCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB1A4D00375BA899494E5C698FD8940A /* SGSystemMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSystemMacros.h; path = SGCore/Classes/SGMacros/SGSystemMacros.h; sourceTree = "<group>"; };
-		FD33E40007D208C98AB2FC5D1D6DCBCB /* SGEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGEncrypt.m; path = SGCore/Classes/SGFunction/SGEncrypt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		331CFCBA804D9946CDD6303F55C35C40 /* Frameworks */ = {
+		4DAC6DC8F41DBD8016DB20B4EF6EA1C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4686F323C8529202C8A411DEBCB018 /* Foundation.framework in Frameworks */,
+				1EF75D864DE7072EB69CF5688DE91A06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,33 +112,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		05C846ADC21B5D06C090A4E24CAC1EA8 /* Support Files */ = {
+		14A04462D080CCFAA99E73A6C9A5465D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				095E1C10EE70149E7BE0CD17F2137121 /* SGCore.modulemap */,
-				64BA22CB24011E8CF7190769D3B669C4 /* SGCore.xcconfig */,
-				703C10745528546A4CD2F1F884BC112F /* SGCore-dummy.m */,
-				0F97EEDCE247B9CE83030B8AD0E311D6 /* SGCore-Info.plist */,
-				9F2502A82D99ECD128834650A893E98C /* SGCore-prefix.pch */,
-				386F493E4CA048CFFD4ADB8AC5189183 /* SGCore-umbrella.h */,
+				AD87F0755B994DBDE6BB7E48D2212F95 /* LICENSE */,
+				D41DFEBAC5C57E4399A3129CFD0F57D2 /* README.md */,
+				E4055225C754B8D9E965B02726ED167C /* SGCore.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SGCore";
-			sourceTree = "<group>";
-		};
-		16331CA03E840CE2D2921703176856AE /* SGMacros */ = {
-			isa = PBXGroup;
-			children = (
-				AD77436FD01F032692B8AABBE43450CC /* SGBlockMacros.h */,
-				054BCD97AABB8AC217744723AA25E001 /* SGColorMacros.h */,
-				C6BC3624618F10F8F4D22B91112FFBEC /* SGFontMacros.h */,
-				323F4B1FF1F7B4BCFD0EEA121BFD1AA2 /* SGMacros.h */,
-				BCECA0AF10BCC2F62EB1159F0006362A /* SGPathMacros.h */,
-				9C8CB7B2E2736A91A8194E4420F6E493 /* SGSizeMacros.h */,
-				FB1A4D00375BA899494E5C698FD8940A /* SGSystemMacros.h */,
-				AF7D3BB9227B0E85828BE352C7B491A2 /* SGUtilsMacros.h */,
-			);
-			name = SGMacros;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2169FE8945352F8102EACFC9035F31F9 /* Products */ = {
@@ -152,20 +131,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E0658C9A5C17EF66750266035B2C467 /* Pod */ = {
+		575B6387B1CB1939720A010C4AEAD60E /* SGFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				D9F9159C879C904D7AA7A9CD1999EBDF /* LICENSE */,
-				0F29A997AB517A989E6E8F3C6C4CD797 /* README.md */,
-				A2D2404BD454E0C39A03B7C2094BA49D /* SGCore.podspec */,
+				DC07135B8A3238C5719FF98EA5B315C0 /* NSArray+SGCore.h */,
+				09851E9EDB07F70FBBA08A17FA956981 /* NSArray+SGCore.m */,
+				B217D09B9F40CA00272609E911209F7F /* NSDate+SGCore.h */,
+				BEFA1152ADDF50CE41206F1C880774EA /* NSDate+SGCore.m */,
+				8219832DE525AE383C08DB4357E1D2E8 /* NSDictionary+SGCore.h */,
+				786119353095E586C4EFE7A11B23913A /* NSDictionary+SGCore.m */,
+				2D2CC2EE241D2170C09F988B0D9623B3 /* NSObject+SGCore.h */,
+				7B89F48B638155A43E207D19ADA9FFD7 /* NSObject+SGCore.m */,
+				7722D926D51F295BE8BAA468AEDA83F2 /* NSString+SGCore.h */,
+				49307F5E08914AA20F4DC303C321EAD9 /* NSString+SGCore.m */,
 			);
-			name = Pod;
+			name = SGFoundation;
 			sourceTree = "<group>";
 		};
 		78433888F2B5647253B170EF67533BED /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB655DF282CF8BAFD9E166899ED11512 /* SGCore */,
+				A26BB222BA19E8F2A8747B1A8F31EDA4 /* SGCore */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -187,6 +173,19 @@
 			path = "Target Support Files/Pods-SGCore_Example";
 			sourceTree = "<group>";
 		};
+		A26BB222BA19E8F2A8747B1A8F31EDA4 /* SGCore */ = {
+			isa = PBXGroup;
+			children = (
+				71221FC9C830DD96475935904CA93AC6 /* SGCore.h */,
+				14A04462D080CCFAA99E73A6C9A5465D /* Pod */,
+				575B6387B1CB1939720A010C4AEAD60E /* SGFoundation */,
+				DEC0837BB8BC7C72C45A70004C3A5C19 /* SGUIKit */,
+				C3AA61985547F2B598153DB9D695F2A1 /* Support Files */,
+			);
+			name = SGCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,17 +194,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CB655DF282CF8BAFD9E166899ED11512 /* SGCore */ = {
+		C3AA61985547F2B598153DB9D695F2A1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4845B76B419E01051FC27B214FD166B /* SGCore.h */,
-				6E0658C9A5C17EF66750266035B2C467 /* Pod */,
-				DE2C93AB629EFD1655E9BE5294A2B8F4 /* SGFunction */,
-				16331CA03E840CE2D2921703176856AE /* SGMacros */,
-				05C846ADC21B5D06C090A4E24CAC1EA8 /* Support Files */,
+				C71DA740A62611696BCAD614EB7C891B /* SGCore.modulemap */,
+				09F952B7E1FDCB5377605AC6A636D2D8 /* SGCore.xcconfig */,
+				5261A09841B54C7E95CCBF25E2B0091C /* SGCore-dummy.m */,
+				6679820B02ED779E5F8825C9E46ED736 /* SGCore-Info.plist */,
+				BF278375B5A1C025E538B45C63170E68 /* SGCore-prefix.pch */,
+				2A9FB2A15BC2FF16B82C1C6B984409BF /* SGCore-umbrella.h */,
 			);
-			name = SGCore;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGCore";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -227,52 +227,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE2C93AB629EFD1655E9BE5294A2B8F4 /* SGFunction */ = {
+		DEC0837BB8BC7C72C45A70004C3A5C19 /* SGUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				64804B1503AB67E77630B9F43946778A /* SGDispatch.h */,
-				D4FD94FBD4DC12CF7D1293831140B77C /* SGDispatch.m */,
-				58DBE506DBA51D6CC19436C484656FAD /* SGEncrypt.h */,
-				FD33E40007D208C98AB2FC5D1D6DCBCB /* SGEncrypt.m */,
-				C1786DEC0B36AB34784DB56CB866E775 /* SGFunction.h */,
-				8A370E104166C236FE5FBA4C306F4E7F /* SGResource.h */,
-				7A2547EF280BA7FD9F374143FBBA3878 /* SGResource.m */,
-				627B5BC8FC30C8BA71B6046D4E60962B /* SGUtils.h */,
-				D1B6722AFB0F7D82EBAB4814EAACD457 /* SGUtils.m */,
+				47153BCE7FDA3CF49DB1C6C16F56ADDD /* UIColor+SGCore.h */,
+				2FACD689F455C9753CB0737C43A81198 /* UIColor+SGCore.m */,
+				052ABFC212EA470C855627BC028EE755 /* UIImage+SGCore.h */,
+				91B5855FCFF408428F410891F2B1B7C6 /* UIImage+SGCore.m */,
+				E25521725EA337081E9386D54202F3D0 /* UIView+SGCore.h */,
+				BE687D0ED717D517584D21EF444864D5 /* UIView+SGCore.m */,
 			);
-			name = SGFunction;
+			name = SGUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		603464847ED3BE86F4EDC9621F45A282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039F7D4E7C33C116DE402F6A5973B69E /* NSArray+SGCore.h in Headers */,
+				C27D0C79E6E13D4B865109077DE1A52D /* NSDate+SGCore.h in Headers */,
+				CC332C3592D08012F28161A206301787 /* NSDictionary+SGCore.h in Headers */,
+				7510CA5BCD737911C6141508ED44F534 /* NSObject+SGCore.h in Headers */,
+				3BBD8F0064BE1FE6763E7B88B1DF1229 /* NSString+SGCore.h in Headers */,
+				E0375910101FE593378B68A9E849FE54 /* SGCore-umbrella.h in Headers */,
+				462349174063AD22375BC6435EF64BF5 /* SGCore.h in Headers */,
+				F55751ADFD517206A77AD24EA63C01FD /* UIColor+SGCore.h in Headers */,
+				C606F4409F63947A52359F6198A8AE5D /* UIImage+SGCore.h in Headers */,
+				789647984C43A363991C7B0BC7BE805E /* UIView+SGCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B1F1DBFE09110024C307CF5EBACE3A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55C34465AE622DA83436C56F38CADDAA /* Pods-SGCore_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0F4DB4B81F906A6F481E8C6EB47A023 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3D90D7AC2ED39AB38AE8A2098D41705 /* SGBlockMacros.h in Headers */,
-				E0C26173970919CBD35222DB5082AADC /* SGColorMacros.h in Headers */,
-				98113F969A5EB02BA066C49F0D8B9090 /* SGCore-umbrella.h in Headers */,
-				80E172838F0AEFB7335A0D3146B6AED4 /* SGCore.h in Headers */,
-				1709E4DE81F33809F56B815CB348A47B /* SGDispatch.h in Headers */,
-				47D638D135DE5AD69CC585FC962D17AB /* SGEncrypt.h in Headers */,
-				8A3B79D30250B6F43DE58B0AC98D8348 /* SGFontMacros.h in Headers */,
-				5674529B7CD09FAC6B15A818C487CCEE /* SGFunction.h in Headers */,
-				07CB9FD8B25F7B30D3FB7A2E81F7D35B /* SGMacros.h in Headers */,
-				7AC426BF6CCAC990EDDDA890389D81A9 /* SGPathMacros.h in Headers */,
-				3F18A9EC6637BCDE3B7D333C925959EB /* SGResource.h in Headers */,
-				87AC58E6E6994801C054AE375A94EA72 /* SGSizeMacros.h in Headers */,
-				F54F83D0FA53E7BAEA539286E28AE268 /* SGSystemMacros.h in Headers */,
-				F1FC0215F536B05E79F3F53A85B8EDB8 /* SGUtils.h in Headers */,
-				B544087D6B5F67A4DDB03ACFEA47E366 /* SGUtilsMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +292,12 @@
 		};
 		79E88EDF527688102EADFF9495F6F76E /* SGCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74EE23D691D7675A8D52F6C3289828F3 /* Build configuration list for PBXNativeTarget "SGCore" */;
+			buildConfigurationList = 0A27B52EBEA9BE6E32C9B7C606E981AA /* Build configuration list for PBXNativeTarget "SGCore" */;
 			buildPhases = (
-				E0F4DB4B81F906A6F481E8C6EB47A023 /* Headers */,
-				87B75C8AC191F7C2F5902CF0A189F983 /* Sources */,
-				331CFCBA804D9946CDD6303F55C35C40 /* Frameworks */,
-				54D86B893AEFE60E5750BE717A92C592 /* Resources */,
+				603464847ED3BE86F4EDC9621F45A282 /* Headers */,
+				19FD630D7D55E41A6333E742BB024728 /* Sources */,
+				4DAC6DC8F41DBD8016DB20B4EF6EA1C7 /* Frameworks */,
+				5B67DC2B7AB4C2A9E07D75522CC28104 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,7 +336,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54D86B893AEFE60E5750BE717A92C592 /* Resources */ = {
+		5B67DC2B7AB4C2A9E07D75522CC28104 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,15 +353,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87B75C8AC191F7C2F5902CF0A189F983 /* Sources */ = {
+		19FD630D7D55E41A6333E742BB024728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A67C633143FBCDBF5C9C6A9BA4E2ABD5 /* SGCore-dummy.m in Sources */,
-				91176D62A872E3B9169A8E17AB5B3A45 /* SGDispatch.m in Sources */,
-				56392818790BB0DE6422F12968C11129 /* SGEncrypt.m in Sources */,
-				3690AE03B1C3E35CB3C99B988FB81824 /* SGResource.m in Sources */,
-				E06558D26BBAEBEA9363A662C329DD28 /* SGUtils.m in Sources */,
+				D41D53FB64082C88913F6C62A4E7F134 /* NSArray+SGCore.m in Sources */,
+				C946BCF57B2F69A9FD6532EF8A6296E5 /* NSDate+SGCore.m in Sources */,
+				116D690D5A311C7E59B5B41FBE12C3A9 /* NSDictionary+SGCore.m in Sources */,
+				8440AB762BBB8D580B1896CDC80C1035 /* NSObject+SGCore.m in Sources */,
+				B3D6E8C6622D0BBCB020C5B916EAD387 /* NSString+SGCore.m in Sources */,
+				4362315B588EFAD47BFF5A94DFCFED10 /* SGCore-dummy.m in Sources */,
+				09886B40B60A3EED1548BEE0CF7EA675 /* UIColor+SGCore.m in Sources */,
+				92EEF6310CA6368D82F9471A98DD8B70 /* UIImage+SGCore.m in Sources */,
+				CB2753F00AD32DD7BBFE84CC97258727 /* UIView+SGCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +389,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A9D7C3974326B8643CD4254A27BE349 /* Debug */ = {
+		05A5D67ACB3728491541D41BD262704E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64BA22CB24011E8CF7190769D3B669C4 /* SGCore.xcconfig */;
+			baseConfigurationReference = 09F952B7E1FDCB5377605AC6A636D2D8 /* SGCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,6 +420,38 @@
 			};
 			name = Debug;
 		};
+		18D9E039C2ED603275A41E90D25866DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F952B7E1FDCB5377605AC6A636D2D8 /* SGCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGCore/SGCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGCore/SGCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGCore/SGCore.modulemap";
+				PRODUCT_MODULE_NAME = SGCore;
+				PRODUCT_NAME = SGCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		40013D7FE34D9E3A3373148C68D10E5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55E0D4D40530BB8313076A587A08B941 /* Pods-SGCore_Example.release.xcconfig */;
@@ -451,38 +479,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85AFD9E19ED9585DF4B3306FFE695035 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64BA22CB24011E8CF7190769D3B669C4 /* SGCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SGCore/SGCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SGCore/SGCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SGCore/SGCore.modulemap";
-				PRODUCT_MODULE_NAME = SGCore;
-				PRODUCT_NAME = SGCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -650,20 +646,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A27B52EBEA9BE6E32C9B7C606E981AA /* Build configuration list for PBXNativeTarget "SGCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A5D67ACB3728491541D41BD262704E /* Debug */,
+				18D9E039C2ED603275A41E90D25866DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74EE23D691D7675A8D52F6C3289828F3 /* Build configuration list for PBXNativeTarget "SGCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A9D7C3974326B8643CD4254A27BE349 /* Debug */,
-				85AFD9E19ED9585DF4B3306FFE695035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

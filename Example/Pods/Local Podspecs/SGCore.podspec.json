@@ -21,17 +21,12 @@
   "source_files": "SGCore/Classes/*.{h,m}",
   "subspecs": [
     {
-      "name": "SGMacros",
-      "source_files": "SGCore/Classes/SGMacros/**/*.{h,m}"
+      "name": "SGUIKit",
+      "source_files": "SGCore/Classes/SGUIKit/**/*"
     },
     {
-      "name": "SGFunction",
-      "source_files": "SGCore/Classes/SGFunction/**/*.{h,m}",
-      "dependencies": {
-        "SGCore/SGMacros": [
-
-        ]
-      }
+      "name": "SGFoundation",
+      "source_files": "SGCore/Classes/SGFoundation/**/*"
     }
   ]
 }

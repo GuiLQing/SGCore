@@ -1,10 +1,9 @@
 PODS:
   - SGCore (1.0.0):
-    - SGCore/SGFunction (= 1.0.0)
-    - SGCore/SGMacros (= 1.0.0)
-  - SGCore/SGFunction (1.0.0):
-    - SGCore/SGMacros
-  - SGCore/SGMacros (1.0.0)
+    - SGCore/SGFoundation (= 1.0.0)
+    - SGCore/SGUIKit (= 1.0.0)
+  - SGCore/SGFoundation (1.0.0)
+  - SGCore/SGUIKit (1.0.0)
 
 DEPENDENCIES:
   - SGCore (from `../`)
@@ -14,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SGCore: 612efbe8b244dfd47f90c737e34833aacfa7ca8e
+  SGCore: 1cab5f80c9a077a45217b084f71d0f6791b58f64
 
 PODFILE CHECKSUM: 091eb64b8c647203a8e88f2d18ac181722802ed3
 

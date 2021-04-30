@@ -11,19 +11,14 @@
 #endif
 
 #import "SGCore.h"
-#import "SGDispatch.h"
-#import "SGEncrypt.h"
-#import "SGFunction.h"
-#import "SGResource.h"
-#import "SGUtils.h"
-#import "SGBlockMacros.h"
-#import "SGColorMacros.h"
-#import "SGFontMacros.h"
-#import "SGMacros.h"
-#import "SGPathMacros.h"
-#import "SGSizeMacros.h"
-#import "SGSystemMacros.h"
-#import "SGUtilsMacros.h"
+#import "NSArray+SGCore.h"
+#import "NSDate+SGCore.h"
+#import "NSDictionary+SGCore.h"
+#import "NSObject+SGCore.h"
+#import "NSString+SGCore.h"
+#import "UIColor+SGCore.h"
+#import "UIImage+SGCore.h"
+#import "UIView+SGCore.h"
 
 FOUNDATION_EXPORT double SGCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char SGCoreVersionString[];

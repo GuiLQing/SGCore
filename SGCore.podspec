@@ -30,13 +30,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SGCore/Classes/*.{h,m}'
   
-  s.subspec 'SGMacros' do |macors|
-      macors.source_files = 'SGCore/Classes/SGMacros/**/*.{h,m}'
+  s.subspec 'SGUIKit' do |uikit|
+      uikit.source_files = 'SGCore/Classes/SGUIKit/**/*'
   end
   
-  s.subspec 'SGFunction' do |function|
-      function.source_files = 'SGCore/Classes/SGFunction/**/*.{h,m}'
-      function.dependency 'SGCore/SGMacros'
+  s.subspec 'SGFoundation' do |foundation|
+      foundation.source_files = 'SGCore/Classes/SGFoundation/**/*'
   end
 
 end
